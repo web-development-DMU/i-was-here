@@ -1,0 +1,20 @@
+body {
+    font-family: system-ui;
+}
+
+section#rules {
+    font-size: 1.4em;
+    border: 1px solid black;
+    padding-inline: 1rem;
+    border-radius: 5px;
+    background: #eee;
+    p {
+        line-height: 1.4;
+        max-width: 75ch;
+    }
+    ol {
+        display: grid;
+        gap: 0.5rem;
+        font-size: 1.2em;
+    }
+}
