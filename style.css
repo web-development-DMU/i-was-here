@@ -29,8 +29,8 @@ body {
 main {
     display: grid;
     gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-
 
 /* 
 Add your specific section styles here
@@ -51,6 +51,24 @@ section#P987654321:hover {
     }
 }
 
+section#P000000000 {
+    background: hsl(240, 20%, 20%);
+    color: hsl(240, 70%, 90%);
+    padding: 1rem;
+    border-radius: 10px;
+    border: 10px solid hsl(240, 20%, 40%);
+}
+section#P000000000 h2 {
+    display: flex;
+    margin-top: 0;
+    justify-content: space-between;
+    align-items: baseline;
+}
+section#P000000000 h2 span.student-number {
+    font-family: monospace;
+    font-weight: normal;
+    font-size: 1rem;
+}
 section#P123456789 {
     background: hsl(0, 50%, 50%);
     color: hsl(0, 90%, 90%);
