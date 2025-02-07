@@ -1,8 +1,4 @@
-body {
-    font-family: system-ui;
-    background: #eee;
-}
-
+/* leave this part alone */
 section#rules {
     border: 1px solid black;
     padding-inline: 1rem;
@@ -16,5 +12,43 @@ section#rules {
         display: grid;
         gap: 0.5rem;
         font-size: 1.2em;
+    }
+}
+
+/*
+Change and add to the default styles here if you want
+but expect someone else to change them after you
+*/
+
+body {
+    font-family: system-ui;
+    background: #eee;
+    display: grid;
+    gap: 1rem;
+}
+main {
+    display: grid;
+    gap: 1rem;
+}
+
+
+/* 
+Add your specific section styles here
+Don't modify anyone else's
+*/
+
+section#P987654321 {
+    background: white;
+    padding: 1rem;
+}
+
+section#P987654321:hover {
+    animation: flash 200ms infinite alternate;
+    background: #eee;
+}
+
+@keyframes flash {
+    100% {
+        background: white;
     }
 }

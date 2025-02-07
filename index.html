@@ -9,46 +9,43 @@
 <body>
     <header>
         <h1>I was here</h1>
-    </header>
-    <main>
         <section id="rules">
             <h2>The rules</h2>
             <p>
                 This website is a place for students to experiment with working in git.
-                You can submit a pull request to this project.
+                You are expected to submit a pull request to this project.
             </p>
             <p>
-                It is expected that all students will make a change to the code.
-                The change should be small and should follow these rules.
+                Your change should be small and should follow these rules.
             </p>
             <ol>
                 <li>
-                    You should make a change to the CSS styles for the page.
+                    You should add a <code>&lt;section id="P987654321"&gt;</code> element inside the <code>&lt;main&gt;</code> element, with the <code>id</code> attribute set to <strong>your student number</strong>.
                 </li>
                 <li>
-                    You should leave your student number somewhere in the visible HTML.
+                    The element should be visible, with sensible content indicating that you have indeed been here.
                 </li>
                 <li>
-                    You should <strong>not</strong> change the HTML in this section.
+                    If you can't think of anything, just add your student number as content.
                 </li>
                 <li>
-                    You should <strong>not</strong> remove another student number from the code.
+                    You should style the element and its contents in some way by adding at least one ruleset to the CSS file like <code>#P987654321 {}</code>.
+                </li>
+                <li>
+                    You should <strong>not</strong> change the HTML in the <em>rules</em> section which contains these rules.
+                </li>
+                <li>
+                    You should <strong>not</strong> edit anyone else's content from the project.
                 </li>
             </ol>
-            <p>
-                Obviously if you take significant effort to update the CSS rules, another student may follow this up with another change that destroys your impact.
-                This is just how it is.
-                So don't get too precious about it.
-                Just try to make an incremental improvement.
-            </p>
+            <p>Try to make your contribution stand out!</p>
         </section>
-        <section>
+    </header>
+    <main>
+        <section id="P987654321">
             <h2>An example</h2>
-            <p>A boring contribution would be to add your student number to this list.</p>
-            <ul>
-                <li>Add a number like this</li>
-            </ul>
-            <p>More creative students will choose other ways to add content.</p>
+            <p>Student <span class="p-number">P987654321</span> was here in February 2025</p>
+            <p>Currently researching CSS animation so I made it flash on hover.</p>
         </section>
     </main>
 </body>
