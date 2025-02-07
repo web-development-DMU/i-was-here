@@ -41,12 +41,10 @@ section#P987654321 {
     background: white;
     padding: 1rem;
 }
-
 section#P987654321:hover {
     animation: flash 200ms infinite alternate;
     background: #eee;
 }
-
 @keyframes flash {
     100% {
         background: white;
@@ -70,4 +68,36 @@ section#P000000000 h2 span.student-number {
     font-family: monospace;
     font-weight: normal;
     font-size: 1rem;
+}
+section#P123456789 {
+    background: hsl(0, 50%, 50%);
+    color: hsl(0, 90%, 90%);
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: auto min-content;
+    grid-auto-rows: min-content;
+    border-radius: 2px;
+    transition: 200ms;
+    h2, p {
+        grid-column: span 2;
+    } 
+    time, span {
+        grid-row: 3;
+        font-size: 0.8em;
+        color: hsl(0, 90%, 80%);
+        transition: 400ms;
+    }
+    h2 {
+        margin: 0;
+    }
+    p {
+        max-width: 70ch;
+        line-height: 1.4;
+    }
+    &:hover {
+        filter: brightness(1.01);
+        span {
+            color: white;
+        }
+    }
 }
