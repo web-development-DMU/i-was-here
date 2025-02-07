@@ -52,3 +52,22 @@ section#P987654321:hover {
         background: white;
     }
 }
+
+section#P000000000 {
+    background: hsl(240, 20%, 20%);
+    color: hsl(240, 70%, 90%);
+    padding: 1rem;
+    border-radius: 10px;
+    border: 10px solid hsl(240, 20%, 40%);
+}
+section#P000000000 h2 {
+    display: flex;
+    margin-top: 0;
+    justify-content: space-between;
+    align-items: baseline;
+}
+section#P000000000 h2 span.student-number {
+    font-family: monospace;
+    font-weight: normal;
+    font-size: 1rem;
+}
