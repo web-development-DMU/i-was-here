@@ -101,3 +101,26 @@ section#P123456789 {
         }
     }
 }
+section#P2782946 {
+    background: Black;
+    padding: 1rem;
+    border-radius: 5px;
+    h2, p {
+        color: white;
+    }
+    .p-number {
+        color: pink;
+    }
+    .github {
+        background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+    &:hover {
+        background: pink;
+        .p-number {
+            color: black;
+        }
+    }
+}
