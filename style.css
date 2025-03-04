@@ -37,17 +37,17 @@ Add your specific section styles here
 Don't modify anyone else's
 */
 
-section#P987654321 {
-    background: white;
-    padding: 1rem;
+section#P2825735 {
+    background: blue;
+    padding: 3rem;
 }
-section#P987654321:hover {
-    animation: flash 200ms infinite alternate;
+section#P2825735:hover {
+    animation: flash 250ms infinite alternate;
     background: #eee;
 }
 @keyframes flash {
     100% {
-        background: white;
+        background: pink;
     }
 }
 
