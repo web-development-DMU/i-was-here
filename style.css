@@ -101,22 +101,42 @@ section#P123456789 {
         }
     }
 }
-
+section#P2782946 {
+    background: Black;
+    padding: 1rem;
+    border-radius: 5px;
+    h2, p {
+        color: white;
+    }
+    .p-number {
+        color: pink;
+    }
+    .github {
+        background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+    &:hover {
+        background: pink;
+        .p-number {
+            color: black;
+        }
+    }
 section#p2783882 {
     font-family: 'Arial', sans-serif; 
-	background: #1F214D;
-            border-radius: 10px;
-            padding: 10px;
-            letter-spacing: 2px;
-           transition: background 1.3s, box-shadow 0.7s, color 1s; 
-            color: #fff; 
+	  background: #1F214D;
+    border-radius: 10px;
+    padding: 10px;
+    letter-spacing: 2px;
+    transition: background 1.3s, box-shadow 0.7s, color 1s; 
+    color: #fff; 
     &:hover {
         background: linear-gradient(to left, #1F214D, #EE6C45); /*gradient */
         box-shadow: 14px 14px 10px rgba(0, 0, 0, 0.8);color: #000; /* white */
     }
     .p-number {
-	    font-family: Lucida Handwriting;
+	      font-family: Lucida Handwriting;
         color: pink;
     }
-
 }
