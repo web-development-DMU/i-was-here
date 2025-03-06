@@ -29,7 +29,7 @@ body {
 main {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 /* 
@@ -49,6 +49,11 @@ section#P987654321:hover {
     100% {
         background: white;
     }
+}
+
+section#P00000000 {
+    background: radial-gradient(#ddd, #dff);
+    padding: 0.5rem;
 }
 
 section#P000000000 {
