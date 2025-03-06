@@ -145,3 +145,23 @@ section#p2783882 {
         color: pink;
     }
 }
+section#P2825735 {
+    background: Dark Violet;
+    padding: 1rem;
+    border-radius: 5px;
+	transition: background 1.3s,color 1s;
+    h2, p {
+        color: white;
+    }
+    .p-number {
+        font-family: Paparus;
+	    color: Orange Peel;
+    }
+
+    &:hover {
+        background: Orange Peel;
+        .p-number {
+            color: Dark Violet;
+        }
+    }
+}
