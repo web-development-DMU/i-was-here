@@ -128,6 +128,7 @@ section#P2782946 {
             color: black;
         }
     }
+}
 section#p2783882 {
     font-family: 'Arial', sans-serif; 
 	  background: #1F214D;
@@ -149,7 +150,7 @@ section#P2825735 {
     background: Dark Violet;
     padding: 1rem;
     border-radius: 5px;
-	transition: background 1.3s,color 1s;
+    transition: background 1.3s,color 1s;
     h2, p {
         color: white;
     }
@@ -164,4 +165,54 @@ section#P2825735 {
             color: Dark Violet;
         }
     }
+}
+section#P2730673 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    color: #ffffff;
+    background: #0bbdbb;
+    border-bottom: 10px solid #044444;
+    border-left: 10px solid #077a79;
+    h2, p, h4 {
+        visibility: hidden;
+    }
+    h3 {
+        text-align: center;
+        text-shadow: 1px 1px 2px #eb5a0c;
+    }
+    h3:nth-of-type(2){
+        visibility: hidden;
+    }
+    &:hover {
+        cursor: help;
+        background: #0bbdbb;
+        border-top: 10px solid #0ffffc;
+        border-right: 10px solid #077a79;
+        border-left: 10px solid #eb5a0c;
+        border-bottom: hidden;
+        h2, h4, p {
+            visibility:visible;
+            text-shadow: 1px 1px 2px #eb5a0c;
+        }
+        h3 {
+            visibility: hidden;
+        }
+        h3:nth-of-type(2){
+            visibility: visible;
+        }
+        h2 {
+            display: flex;
+            margin-top: 0;
+            justify-content:space-between;
+            align-items:normal;
+            padding: 10px;
+        }
+        h4 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+     }
 }
