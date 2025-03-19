@@ -146,7 +146,27 @@ section#p2783882 {
         color: pink;
     }
 }
-section#P2730673{
+section#P2825735 {
+    background: Dark Violet;
+    padding: 1rem;
+    border-radius: 5px;
+    transition: background 1.3s,color 1s;
+    h2, p {
+        color: white;
+    }
+    .p-number {
+        font-family: Paparus;
+	    color: Orange Peel;
+    }
+
+    &:hover {
+        background: Orange Peel;
+        .p-number {
+            color: Dark Violet;
+        }
+    }
+}
+section#P2730673 {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-variant: small-caps;
@@ -154,44 +174,44 @@ section#P2730673{
     background: #0bbdbb;
     border-bottom: 10px solid #044444;
     border-left: 10px solid #077a79;
-    h2, p, h4{
+    h2, p, h4 {
         visibility: hidden;
     }
-    h3{
+    h3 {
         text-align: center;
         text-shadow: 1px 1px 2px #eb5a0c;
     }
     h3:nth-of-type(2){
         visibility: hidden;
     }
-    &:hover{
+    &:hover {
         cursor: help;
         background: #0bbdbb;
         border-top: 10px solid #0ffffc;
         border-right: 10px solid #077a79;
         border-left: 10px solid #eb5a0c;
         border-bottom: hidden;
-        h2, h4, p{
+        h2, h4, p {
             visibility:visible;
             text-shadow: 1px 1px 2px #eb5a0c;
         }
-        h3{
+        h3 {
             visibility: hidden;
         }
         h3:nth-of-type(2){
             visibility: visible;
         }
-        h2{
+        h2 {
             display: flex;
             margin-top: 0;
             justify-content:space-between;
             align-items:normal;
             padding: 10px;
         }
-        h4{
+        h4 {
             text-align: center;
         }
-        p{
+        p {
             text-align: center;
         }
      }
